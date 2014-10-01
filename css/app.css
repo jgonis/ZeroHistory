@@ -1,0 +1,61 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.vbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.hbox {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+#item1 {
+    background: aquamarine;
+    flex-grow: 1;
+}
+
+#item2 {
+    background: cadetblue;
+    flex-grow: 0.10;
+}
+
+#item3 {
+    background: tomato;
+    flex-grow: 1;
+}
+
+#item4 {
+    background: sandybrown;
+    flex-grow: 1;
+}
+
+#item5 {
+    background: yellowgreen;
+    flex-grow: 1;
+}
+
+#item6 {
+    background: #379360;
+    flex-grow: 1;
+}
+
+#item7 {
+    background: lightslategrey;
+    flex-grow: 1;
+}
+
+#item8 {
+    background: orangered;
+    flex-grow: 0.25;
+}
+
+#item9 {
+    background: brown;
+}

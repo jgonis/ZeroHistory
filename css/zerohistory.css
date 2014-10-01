@@ -1,0 +1,22 @@
+html {
+    height: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    background: linear-gradient(to bottom, black, darkslateblue);
+}
+
+#gibson {
+    font-family: Lato;
+    color: black;
+    font-size: 28pt;
+    text-align: center;
+    transition: all 1s;
+}
