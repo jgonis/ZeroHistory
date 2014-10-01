@@ -1,22 +1,46 @@
-html {
+html, body {
+    box-sizing: border-box;
     height: 100%;
+    width: 100%;
     margin: 0px;
     border: 0px;
     padding: 0px;
 }
 
 body {
-    width: 100%;
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
     background: linear-gradient(to bottom, black, darkslateblue);
 }
 
 #gibson {
-    font-family: Lato;
     color: black;
+    transition: all 1s;
+    font-family: Lato;
     font-size: 28pt;
     text-align: center;
-    transition: all 1s;
+}
+
+.gibson {
+    color: white;
+    font-family: Lato;
+    font-size: 28pt;
+    text-align: center;
+}
+
+.vbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.hbox {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+.experiment {
+    flex-grow: 1;
+    align-items: center;
+    margin: 1%;
 }
