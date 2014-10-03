@@ -1,6 +1,12 @@
 /**
- * Created by vgw44765 on 22/09/2014.
- */
-window.onload = function () {
-    console.log("page loaded");
+* Created by vgw44765 on 02/10/2014.
+*/
+window.onload = function (event) {
+    window.setTimeout(fadeText, 500);
+};
+
+function fadeText() {
+    var gibson = document.getElementById("gibson");
+    gibson.style.color = "white";
 }
+//# sourceMappingURL=app.js.map

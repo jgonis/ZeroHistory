@@ -32,8 +32,20 @@ html, body {
 }
 
 #item4 {
+     background: sandybrown;
+     flex-grow: 1;
+ }
+
+#canvasContainer {
     background: sandybrown;
     flex-grow: 1;
+}
+
+canvas {
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
 }
 
 #item5 {
@@ -54,6 +66,7 @@ html, body {
 #item8 {
     background: orangered;
     flex-grow: 0.25;
+    min-height: 100px;
 }
 
 #item9 {
