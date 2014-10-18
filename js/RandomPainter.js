@@ -11,10 +11,4 @@ window.onload = function (event) {
         }
     }
 };
-var myWorker = new Worker("js/RandomPainterWorkerConcat.js");
-if (myWorker !== null) {
-    myWorker.onmessage = function (event) {
-    };
-    myWorker.postMessage("start");
-}
 //# sourceMappingURL=RandomPainter.js.map

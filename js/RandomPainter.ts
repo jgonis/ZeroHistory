@@ -12,14 +12,3 @@ window.onload = (event) => {
     }
 };
 
-
-var myWorker = new Worker("js/RandomPainterWorkerConcat.js");
-
-if(myWorker !== null) {
-    myWorker.onmessage = (event) => {
-
-    };
-
-    myWorker.postMessage("start");
-}
-
