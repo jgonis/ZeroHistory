@@ -17,6 +17,12 @@ $RECYCLE.BIN/
 #Webstorm config files
 .idea/
 
+#concatenated js and asm.js files
+js/concat
+
+#generated asm.js files in cpp directory
+cpp/*.js
+
 # =========================
 # Operating System Files
 # =========================
@@ -45,3 +51,9 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+node_modules/
+
+#js source map files
+*.map
+*.map
+js/RandomPainter.js.map

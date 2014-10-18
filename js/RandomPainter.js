@@ -11,7 +11,7 @@ window.onload = function (event) {
         }
     }
 };
-var myWorker = new Worker("js/RandomPainterWorker.js");
+var myWorker = new Worker("js/RandomPainterWorkerConcat.js");
 if (myWorker !== null) {
     myWorker.onmessage = function (event) {
     };
