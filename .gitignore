@@ -57,3 +57,4 @@ node_modules/
 *.map
 *.map
 js/RandomPainter.js.map
+*.js
