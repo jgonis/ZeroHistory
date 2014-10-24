@@ -11,4 +11,19 @@ window.onload = function (event) {
         }
     }
 };
+function loopingFunc() {
+    var startTime = performance.now();
+    var iterationCount = 0;
+    var currentTime = 0;
+    var shouldLoop = true;
+    while (shouldLoop === true && this.continueProcessing === true) {
+        currentTime = performance.now();
+        if (currentTime - startTime >= 1000) {
+            this.postMessageFunc(iterationCount);
+            shouldLoop = false;
+        }
+        iterationCount = iterationCount + 1;
+    }
+    self.setTimeout(this.loopingFunc, 0);
+}
 //# sourceMappingURL=RandomPainter.js.map
